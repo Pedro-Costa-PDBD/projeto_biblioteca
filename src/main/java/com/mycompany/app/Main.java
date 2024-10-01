@@ -13,13 +13,21 @@ public class Main {
         livro.Validar_Disponivel();
 
         Usuario usuario= new usuario();
-        usuario.setNome("Lucas Rafael");
+        usuario.setNome_pessoa("Lucas Rafael");
         usuario.setIdade(25);
 
-        Date data = new Date();
+        Emprestimo emprestimo= new Emprestimo();
+        emprestimo.setData_retirada(new Date());
+        emprestimo.setData_devolucao(new Date());
+        emprestimo.setLIvro(livro);
+        emprestimo.setUsuario(usuario);
 
-        Pessoa pessoa = new Pessoa();
-        pessoa.nome_pessoa("Lucas Rodrigo");
-        pessoa.livros("Um dia no amanhecer, Pós primavera de outono, Tente rir antes que o mundo chore");
+        System.out.println("Livro: " + livro.getTitulo());
+        System.out.println("Autor: " + livro.getAutor().getNome_pessoa());
+        System.out.println("Gênero: " + livro.getGenero());
+        System.out.println("Usuário: " + usuario.getNome());
+        System.out.println("Idade: " + usuario.getIdade());
+        System.out.println("Data de retirada: " + emprestimo.getData_retirada());
+        System.out.println("Data de devolução: " + emprestimo.getData_devolucao());
     }
 }
