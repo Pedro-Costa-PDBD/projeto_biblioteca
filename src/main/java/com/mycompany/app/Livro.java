@@ -20,7 +20,7 @@ public class Livro {
         this.autor = autor;
     }
 
-        public String Genero() {
+        public String getGenero() {
         return genero;
     }
 
