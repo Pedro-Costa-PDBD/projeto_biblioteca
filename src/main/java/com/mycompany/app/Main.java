@@ -3,7 +3,8 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         Autor autor= new Autor();
-        autor.setNome("Joao da Silva");
+        Pessoa pessoa = new Pessoa();
+        pessoa.setNome_pessoa("João da Silva");
         autor.setNacionalidade("Brasileiro");
 
         Livro livro= new Livro();
@@ -13,7 +14,7 @@ public class Main {
         livro.Validar_Disponivel();
 
         Usuario usuario= new usuario();
-        usuario.setNome_pessoa("Lucas Rafael");
+        usuario.setNome("Bartolomeu");
         usuario.setIdade(25);
 
         Emprestimo emprestimo= new Emprestimo();
