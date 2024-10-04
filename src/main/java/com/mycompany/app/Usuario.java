@@ -1,15 +1,6 @@
-public class Usuario extends Pessoa{
-    private String nome;
+public class Usuario extends Pessoa {
     private int idade;
     private Emprestimo[] historico_emprestimo;
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 
     public int getIdade() {
         return idade;
@@ -19,11 +10,11 @@ public class Usuario extends Pessoa{
         this.idade = idade;
     }
 
-    public Emprestimo[] getEMprestimo() {
+    public Emprestimo[] getHistorico_Emprestimo() {
         return historico_emprestimo;
     }
 
-    public void setEMprestimo(Emprestimo[] historico_emprestimo) {
+    public void setHistorico_Emprestimo(Emprestimo[] historico_emprestimo) {
         this.historico_emprestimo = historico_emprestimo;
     }
 }

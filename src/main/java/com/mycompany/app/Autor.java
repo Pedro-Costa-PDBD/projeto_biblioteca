@@ -1,6 +1,5 @@
-public class Autor extends Pessoa{
+public class Autor extends Pessoa {
     private String nacionalidade;
-    private Livro[] obras_publicadas;
     
     public String getNacionalidade() {
         return nacionalidade;
@@ -9,6 +8,8 @@ public class Autor extends Pessoa{
     public void setNacionalidade(String nacionalidade) {
         this.nacionalidade = nacionalidade;
     }
+
+    private Livro[] obras_publicadas;
 
     public Livro[] getObras_Publicadas() {
         return obras_publicadas;

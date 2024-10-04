@@ -23,7 +23,7 @@ public class Emprestimo {
         this.data_devolucao = data_devolucao;
     }
 
-        public Livro getLIvro() {
+    public Livro getLIvro() {
         return livro;
     }
 
@@ -31,11 +31,11 @@ public class Emprestimo {
         this.livro = livro;
     }
 
-    public Usuario getUsuario() {
+    public Usuario getUSuario() {
         return usuario;
     }
 
-    public void setUsuario(Usuario usuario) {
+    public void setUSuario(Usuario usuario) {
         this.usuario = usuario;
     }
 }

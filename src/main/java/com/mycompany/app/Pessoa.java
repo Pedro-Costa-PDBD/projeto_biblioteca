@@ -1,20 +1,21 @@
 public class Pessoa {
-    private String nome_pessoa;
-    private Livro[] livros;
+    private String nome;
 
-    public String getNome_pessoa() {
-        return nome_pessoa;
+    public String getNome() {
+        return nome;
     }
 
-    public void setNome_pessoa(String nome_pessoa) {
-        this.nome_pessoa = nome_pessoa;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public Livro[] getLivro() {
-        return livros;
+    private Livro[] listaLivros;
+
+    public Livro[] getLivros() {
+        return listaLivros;
     }
 
-    public void setLivro(Livro[] livros) {
-        this.livros = livros;
+    public void setLivros(Livro[] listaLivros) {
+        this.listaLivros = listaLivros;
     }
 }

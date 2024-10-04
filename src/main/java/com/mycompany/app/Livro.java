@@ -28,7 +28,7 @@ public class Livro {
         this.genero = genero;
     }
 
-    public boolean getDisponivel() {
+    public boolean isDisponivel() {
         return disponivel;
     }
 
@@ -36,7 +36,7 @@ public class Livro {
         this.disponivel = disponivel;
     }
 
-    public void Validar_Disponivel() {
+    public void validarDisponibilidade() {
         if(disponivel) {
                 System.out.println( "O livro esta disponivel para emprestimo." );
         } else {
