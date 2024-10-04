@@ -23,7 +23,7 @@ public class Usuario extends Pessoa {
         return nome_usuario;
     }
 
-    public void setNome_Usuario(int nome_usuario) {
+    public void setNome_Usuario(String nome_usuario) {
         this.nome_usuario = nome_usuario;
     }
 }
