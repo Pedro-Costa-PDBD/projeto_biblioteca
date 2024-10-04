@@ -23,9 +23,8 @@ public class Main {
         emprestimo.setUSuario(usuario);
 
         System.out.println("Livro: " + livro.getTitulo());
-        System.out.println("Autor: " + livro.getAutor().getNome_pessoa());
+        System.out.println("Autor: " + livro.getAutor().getNome());
         System.out.println("Gênero: " + livro.getGenero());
-        System.out.println("Usuário: " + usuario.getNome());
         System.out.println("Idade: " + usuario.getIdade());
         System.out.println("Data de retirada: " + emprestimo.getData_retirada());
         System.out.println("Data de devolução: " + emprestimo.getData_devolucao());
