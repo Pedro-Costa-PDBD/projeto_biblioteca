@@ -13,7 +13,7 @@ public class Main {
         livro.setGenero("Tecnologia");
         livro.validarDisponibilidade();
 
-        Usuario usuario= new usuario();
+        Usuario usuario= new Usuario();
         usuario.setIdade(25);
         usuario.setNome_Usuario("Lucas Rafael");
 
