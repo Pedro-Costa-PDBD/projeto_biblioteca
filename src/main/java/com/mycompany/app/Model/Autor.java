@@ -1,3 +1,5 @@
+package com.mycompany.app.Model;
+
 public class Autor extends Pessoa {
     private String nacionalidade;
     

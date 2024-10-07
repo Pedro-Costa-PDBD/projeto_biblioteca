@@ -1,7 +1,13 @@
+package com.mycompany.app;
 public class Usuario extends Pessoa {
     private int idade;
-    private Emprestimo[] historico_emprestimo;
-    private String nome_usuario;
+    private Emprestimo[] historicoEmprestimos;
+    
+    // Construtor com nome, idade e histórico de empréstimos
+    public Usuario(String nome, int idade) {
+        super(nome);
+        this.idade = idade;
+    }
 
     public int getIdade() {
         return idade;
