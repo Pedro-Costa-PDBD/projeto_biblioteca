@@ -5,6 +5,7 @@ import java.util.Date;
 import com.mycompany.app.Model.Autor;
 import com.mycompany.app.Model.Emprestimo;
 import com.mycompany.app.Model.Livro;
+import com.mycompany.app.Model.Pessoa;
 import com.mycompany.app.Model.Usuario;
 
 public class Main {

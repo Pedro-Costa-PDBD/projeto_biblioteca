@@ -2,7 +2,7 @@ package com.mycompany.app.Model;
 
 public class Autor extends Pessoa {
     private String nacionalidade;
-    
+
     public String getNacionalidade() {
         return nacionalidade;
     }
@@ -20,6 +20,8 @@ public class Autor extends Pessoa {
     public void setObras_Publicadas(Livro[] obras_publicadas) {
         this.obras_publicadas = obras_publicadas;
     }
+
+    private Livro[] obras_publicadas_por_genero;
 
     public Livro[] getObras_Publicadas_Por_Genero(String genero) {
         return obras_publicadas_por_genero;
