@@ -1,5 +1,3 @@
-package com.mycompany.app.Model;
-
 public class Livro {
     private String titulo;
     private Autor autor;
