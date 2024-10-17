@@ -24,7 +24,7 @@ public class PessoaTest {
     @Test
     public void testGetLivros() {
         Pessoa pessoa = new Pessoa();
-        Autor autor = new Autor();
+        Autor autor = new Autor(null, null, false);
 
         // Define uma lista de livros para a pessoa
         Livro[] livros = new Livro[2];

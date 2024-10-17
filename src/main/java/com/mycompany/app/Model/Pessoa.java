@@ -1,3 +1,5 @@
+package com.mycompany.app.Model;
+
 public class Pessoa {
     private String nome;
 

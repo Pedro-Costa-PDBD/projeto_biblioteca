@@ -1,3 +1,5 @@
+package com.mycompany.app.Model;
+
 public class Artigo {
     private String titulo;
     private Autor autor;
